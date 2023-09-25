@@ -1,0 +1,8 @@
+student = {
+ "nama" : "faqih",
+ "umur" : 26,
+ "tinggi" : 177.6
+ }
+print("Nama awal:", student.get("nama"))
+student["nama"] = "darmawan"
+print("Setelah diubah:", student.get("nama"))
